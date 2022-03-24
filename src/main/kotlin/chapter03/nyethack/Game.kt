@@ -2,7 +2,7 @@ package chapter03.nyethack
 
 import kotlin.math.pow
 
-fun getAuraColor(healthPoints: Int) = when ((Math.random().pow((110 - healthPoints) / 100.0) * 20).toInt()) {
+private fun getAuraColor(healthPoints: Int) = when ((Math.random().pow((110 - healthPoints) / 100.0) * 20).toInt()) {
     in 0..5 -> "RED"
     in 6..10 -> "ORANGE"
     in 11..15 -> "PURPLE"
