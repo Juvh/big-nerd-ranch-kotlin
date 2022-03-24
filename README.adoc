@@ -1,0 +1,4 @@
+= Big Nerd Ranch의 Kotlin Programming
+
+== Big Nerd Ranch?
+Big Nerd Rnach 는 미국 Atlanta에 위치한 web & mobile app 개발 교육 업체이다.
