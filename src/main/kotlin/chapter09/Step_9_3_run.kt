@@ -1,6 +1,5 @@
 package chapter09
 
-import com.sun.org.apache.xpath.internal.operations.Bool
 import java.io.File
 
 fun main(args: Array<String>) {
