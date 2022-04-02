@@ -1,4 +1,4 @@
-package chapter17.nyethack.step3
+package chapter17.sandbox.step3
 
 class LootBox<T : Loot>(vararg item: T) {
     var open = false

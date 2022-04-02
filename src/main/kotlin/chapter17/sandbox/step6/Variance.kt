@@ -1,4 +1,4 @@
-package chapter17.nyethack.step6
+package chapter17.sandbox.step6
 
 class Barrel<in T>(item: T)
 

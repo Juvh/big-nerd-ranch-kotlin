@@ -1,6 +1,6 @@
-package chapter17.nyethack.step4
+package chapter17.sandbox.step5
 
-class Barrel<T>(var item: T)
+class Barrel<out T>(val item: T)
 
 open class Loot(val value: Int)
 
@@ -12,7 +12,6 @@ fun main(args: Array<String>) {
     var fedoraBarrel: Barrel<Fedora> = Barrel(Fedora("Normal Fedora", 15))
     var lootBarrel: Barrel<Loot> = Barrel(Coin(15))
 
-    // lootBarrel = fedoraBarrel    // ERROR
-    // lootBarrel.item = Coin(15)   // ERROR
-    val myFedora: Fedora = fedoraBarrel.item
+    lootBarrel = fedoraBarrel
+    val myFedora: Fedora = lootBarrel.item
 }
